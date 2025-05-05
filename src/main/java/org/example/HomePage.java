@@ -10,7 +10,7 @@ public class HomePage extends BasePage {
     }
 
     public void addProductAndGoToCart() {
-        driver.findElement(By.id("add-to-cart-sauce-labs-backpack")).click(); // example product
+        driver.findElement(By.id("add-to-cart-sauce-labs-backpack")).click();
         driver.findElement(By.className("shopping_cart_link")).click();
     }
 }
